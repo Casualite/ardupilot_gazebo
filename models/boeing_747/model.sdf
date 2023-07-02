@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<sdf version='1.9'>
+<model name='Boeing747'>
+<link name="base_link"> 
+	 <visual name='Boeing747'> 
+	  <origin rpy="0 0 0" xyz="0 0 0"/>
+	 	<origin rpy="0 0 0" xyz="0 0 0"/> 
+	 	<geometry> 
+	 		<mesh>
+			    <scale>1 1 1</scale>
+			    <uri>model://boeing_747/meshes/Boeing747_400_M.dae</uri>
+			</mesh>
+	 	</geometry> 
+	</visual> 
+</link>
+<static>true</static>
+</model>
+</sdf>
